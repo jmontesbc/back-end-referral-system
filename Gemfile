@@ -30,6 +30,11 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'pry-byebug'
+  gem 'rspec'
+  gem 'rspec_junit_formatter'
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
+  gem 'spring-commands-rspec'
 end
 
 group :development do
@@ -45,11 +50,6 @@ end
 
 group :test do
   gem 'webmock'
-  gem 'rspec'
-  gem 'rspec_junit_formatter'
-  gem 'rails-controller-testing'
-  gem 'rspec-rails'
-  gem 'spring-commands-rspec'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
