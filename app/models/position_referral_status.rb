@@ -1,0 +1,2 @@
+class PositionReferralStatus < ApplicationRecord
+end
