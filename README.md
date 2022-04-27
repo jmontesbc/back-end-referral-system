@@ -1,24 +1,16 @@
-# README
+# Apex Referral Program
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails repository is backend for Referral Program.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Download this repository and run:
 
-* System dependencies
+```
+bundle install
+```
 
-* Configuration
+## Related repositories
 
-* Database creation
+* [Frontend component](https://github.com/AlanMunozN/referral-system)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
