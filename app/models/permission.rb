@@ -1,5 +1,5 @@
 class Permission < ApplicationRecord
-  belongs_to :user_id
-  belongs_to :view_id
-  belongs_to :action_id
+  belongs_to :user
+  belongs_to :view
+  belongs_to :action
 end
